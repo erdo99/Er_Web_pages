@@ -22,7 +22,7 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-  alert(`Current path is: ${pathname}`);
+  
   return (
     <>
       {links.map((link) => {
